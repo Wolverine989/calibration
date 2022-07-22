@@ -11,15 +11,14 @@ from statistics import median
 import math
 
 
-# crop parameters old //OCT 05,07 2021
+
 # left = 1200
 # # top = 200 # includes C
 # top = 1000
 # # right = 1450 
 # right = 1300
 # bottom = 1750
-
-# # # crop parameters new //OCT 09 2021 
+ 
 left = 1200
 # top = 200 # includes C
 top = 550
