@@ -11,13 +11,6 @@ from statistics import median
 import math
 
 
-
-# left = 1200
-# # top = 200 # includes C
-# top = 1000
-# # right = 1450 
-# right = 1300
-# bottom = 1750
  
 left = 1200
 # top = 200 # includes C
@@ -36,12 +29,7 @@ def process(name): # convert to greyscale and crop
     img = Image.open(name+".jpeg")
     img = img.crop((left, top, right, bottom)) 
 
-    # image_data = img.load()
-    # height,width = img.size
-    # for loop1 in range(height):
-    #     for loop2 in range(width):
-    #         r,g,b = image_data[loop1,loop2]
-    #         image_data[loop1,loop2] = r,int(g/2),int(b/2)
+   
 
     img = img.convert('L')
     img.save('temp/'+name+'.png')
@@ -203,5 +191,5 @@ plt.show()
 #     find(name)
 
 os.system("rm ls.txt")
-# os.system("rm -r temp")
+
 
