@@ -206,4 +206,3 @@ plt.show()
 os.system("rm ls.txt")
 # os.system("rm -r temp")
 
-# research@ubio.co.in
